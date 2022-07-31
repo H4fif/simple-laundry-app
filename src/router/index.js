@@ -1,10 +1,7 @@
 import { StyleSheet, Text, View } from 'react-native';
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
-import Home from '../pages/Home';
-import Splash from '../pages/Splash';
-import Pesanan from '../pages/Pesanan';
-import Akun from '../pages/Akun';
+import { Akun, Home, Pesanan, Splash } from '../pages';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
 const Stack = createStackNavigator();
@@ -23,7 +20,7 @@ const MainApp = () => {
 const Router = () => {
   return (
     // Default Screen is the first declared if INITIAL ROUTE NAME IS EMPTY, OTHERWISE OVERRIED BY INITIAL ROUTE NAME
-    <Stack.Navigator initialRouteName="MainApp">
+    <Stack.Navigator initialRouteName="Splash">
       <Stack.Screen
         name="Splash"
         component={Splash}
