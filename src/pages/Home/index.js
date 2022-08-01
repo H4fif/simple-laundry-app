@@ -10,6 +10,7 @@ import {
 } from 'react-native';
 
 import { Header as HeaderImage, HeaderLogo } from '../../assets/images';
+import Saldo from '../../components/Saldo';
 
 const Home = () => {
   return (
@@ -21,6 +22,8 @@ const Home = () => {
           <Text style={styles.welcomeUsername}>afifbasya</Text>
         </View>
       </ImageBackground>
+
+      <Saldo />
     </View>
   );
 };
