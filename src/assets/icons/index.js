@@ -1,15 +1,33 @@
-import AccountActive from './AccountActive.svg';
-import AccountInactive from './AccountInactive.svg';
-import HomeActive from './HomeActive.svg';
-import HomeInactive from './HomeInactive.svg';
-import OrderActive from './OrderActive.svg';
-import OrderInactive from './OrderInactive.svg';
+import AccountActiveIcon from './AccountActive.svg';
+import AccountInactiveIcon from './AccountInactive.svg';
+import AddSaldoIcon from './AddSaldo.svg';
+import GetPointIcon from './GetPoint.svg';
+import HomeActiveIcon from './HomeActive.svg';
+import HomeInactiveIcon from './HomeInactive.svg';
+import OrderActiveIcon from './OrderActive.svg';
+import OrderInactiveIcon from './OrderInactive.svg';
+import ExpressIcon from './Express.svg';
+import KarpetIcon from './Karpet.svg';
+import KiloanIcon from './Kiloan.svg';
+import MesinCuciIcon from './MesinCuci.svg';
+import SatuanIcon from './Satuan.svg';
+import SetrikaIcon from './Setrika.svg';
+import VIPIcon from './VIP.svg';
 
 export {
-  AccountActive,
-  AccountInactive,
-  HomeActive,
-  HomeInactive,
-  OrderActive,
-  OrderInactive,
+  AccountActiveIcon,
+  AccountInactiveIcon,
+  AddSaldoIcon,
+  GetPointIcon,
+  HomeActiveIcon,
+  HomeInactiveIcon,
+  OrderActiveIcon,
+  OrderInactiveIcon,
+  ExpressIcon,
+  KarpetIcon,
+  KiloanIcon,
+  MesinCuciIcon,
+  SatuanIcon,
+  SetrikaIcon,
+  VIPIcon,
 };
