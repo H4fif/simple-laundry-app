@@ -11,7 +11,7 @@ import {
 
 import styles from './styles';
 
-const TabItem = ({ isFocused, key, onLongPress, onPress, label }) => {
+const TabItem = ({ isFocused, index, onLongPress, onPress, label }) => {
   const Icon = () => {
     if (label === 'Akun')
       return isFocused ? <AccountActive /> : <AccountInactive />;
@@ -26,7 +26,7 @@ const TabItem = ({ isFocused, key, onLongPress, onPress, label }) => {
 
   return (
     <TouchableOpacity
-      key={`navigator-${key}`}
+      key={`navigator-${index}`}
       onPress={onPress}
       onLongPress={onLongPress}
       style={styles.container}>

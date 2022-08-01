@@ -44,7 +44,7 @@ const BottomNavigator = ({ state, descriptors, navigation }) => {
         return (
           <TabItem
             isFocused={isFocused}
-            key={index}
+            index={index}
             label={label}
             onLongPress={onLongPress}
             onPress={onPress}
