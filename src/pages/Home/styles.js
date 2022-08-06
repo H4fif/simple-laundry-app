@@ -1,4 +1,5 @@
 import { Dimensions, StyleSheet } from 'react-native';
+import Colors from '../../styles';
 
 const windowHeight = Dimensions.get('window').height;
 const windowWidth = Dimensions.get('window').width;
@@ -16,6 +17,7 @@ export default StyleSheet.create({
   },
   page: {
     flex: 1,
+    backgroundColor: 'white',
   },
   welcomeHeader: {
     marginTop: windowHeight * 0.025,
@@ -40,6 +42,14 @@ export default StyleSheet.create({
     flexDirection: 'row',
     flexWrap: 'wrap',
     justifyContent: 'space-between',
-    marginTop: 12,
+    marginTop: 10,
+  },
+  pesananAktif: {
+    paddingTop: 10,
+    paddingHorizontal: 30,
+    backgroundColor: Colors.GREY_COLOR,
+    flex: 1,
+    borderTopLeftRadius: 20,
+    borderTopRightRadius: 20,
   },
 });
