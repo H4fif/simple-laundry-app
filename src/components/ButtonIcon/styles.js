@@ -2,18 +2,21 @@ import { StyleSheet } from 'react-native';
 import theme from '../../styles';
 
 export default StyleSheet.create({
-  buttonLabel: {
-    fontFamily: 'TitilliumWeb-Regular',
-    fontSize: 10,
+  buttonLabel: type => ({
+    fontFamily:
+      type === 'layanan' ? 'TitilliumWeb-Light' : 'TitilliumWeb-Regular',
+    fontSize: type === 'layanan' ? 14 : 10,
     textAlign: 'center',
-  },
-  iconWrapper: {
+  }),
+  iconWrapper: type => ({
     backgroundColor: theme.SECONDARY_BACKGROUND_COLOR,
-    padding: 7,
+    padding: type === 'layanan' ? 12 : 7,
     borderRadius: 10,
     marginBottom: 5,
-  },
-  container: {
-    marginHorizontal: 5,
-  },
+  }),
+  container: type => ({
+    marginBottom: 12,
+    marginHorizontal: type === 'layanan' ? 0 : 5,
+    marginRight: type === 'layanan' ? 30 : 0,
+  }),
 });
