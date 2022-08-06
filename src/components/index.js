@@ -1,5 +1,6 @@
 import BottomNavigator from './BottomNavigator';
 import Saldo from './Saldo';
 import ButtonIcon from './ButtonIcon';
+import PesananAktif from './PesananAktif';
 
-export { ButtonIcon, BottomNavigator, Saldo };
+export { ButtonIcon, BottomNavigator, PesananAktif, Saldo };
