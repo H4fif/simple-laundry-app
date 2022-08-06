@@ -43,6 +43,7 @@ const BottomNavigator = ({ state, descriptors, navigation }) => {
 
         return (
           <TabItem
+            key={`bottom-navigator-${index}`}
             isFocused={isFocused}
             index={index}
             label={label}
