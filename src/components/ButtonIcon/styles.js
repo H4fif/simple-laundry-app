@@ -15,7 +15,7 @@ export default StyleSheet.create({
     marginBottom: 5,
   }),
   container: type => ({
-    marginBottom: 12,
+    marginBottom: type === 'layanan' ? 12 : 0,
     marginHorizontal: type === 'layanan' ? 0 : 5,
     marginRight: type === 'layanan' ? 30 : 0,
   }),
