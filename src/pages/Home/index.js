@@ -8,7 +8,7 @@ import styles from './styles';
 const Home = () => {
   return (
     <View style={styles.page}>
-      <ScrollView showsVerticalScrollIndicator="false">
+      <ScrollView showsVerticalScrollIndicator={false}>
         <ImageBackground source={HeaderImage} style={styles.header}>
           <Image source={HeaderLogo} style={styles.logo} />
           <View style={styles.welcomeHeader}>
